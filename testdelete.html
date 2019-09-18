@@ -25,29 +25,29 @@
               </div>
             </nav>
                 
-            <div class="main">
-              <div class="home">
-              <div class="leftbox">
-                <!-- picture border is not working yet -- get help from teacher -->
-                <!-- <div class="picture-border"></div> -->
-                <div class="picture">
-                  <!-- The actual picture is in index.css in the .picture class -->
+            
+                <div class="contactform">
+                    <form class="form" action="https://formspree.io/samaakanani@gmail.com" method="POST">
+                      <h3>Contact Me</h3>
+                      <p>If you have any questions, of just want to have a chat, feel free to reach out to me.</p>
+                      <div class="forminput">
+                        <label for="name">What's your name?</label>
+                        <input type="text" name="name-field">
+                      </div>
+                      <div class="forminput">
+                        <label for="_replyto">What's your email address?</label>
+                        <input type="email" name="email-field">
+                      </div>
+                      <div class="forminput">
+                        <label for="textarea">What do you want to tell me?</label>
+                        <textarea name="textarea" id="text-area-field" cols="40" rows="5"></textarea>
+                      </div>
+                      <div class="forminput">
+                        <input type="submit" value="Send Message" id="submit">
+                      </div>
+                    </form>
                 </div>
-              </div>
-              <div class="rightbox">
-                <div class="about-me-title">
-                  <h1>A bit about me...</h1>
-                </div>
-                <div class="about-me-body">
-                  <p>I'm currently making the transition from a UX Researcher to a Software Developer.</p>
-                  <br>
-                  <p>My goal is to create products that are fun and easy to use.</p>
-                  <br>
-                  <p>When I'm not coding, I'm either daydreaming about flying to space or watching shows.</p>
-                </div>
-              </div>
-              </div>
-            </div>
+              
 
             <footer class="footer">
               <div class="footertext">
