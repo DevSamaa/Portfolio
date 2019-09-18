@@ -48,7 +48,7 @@
   color: #1E1D1E;
 }
 
-.navbar a:hover {
+ .navbar a:hover {
   color: #3A3839;
   /* transform zooms in on the item */
   transform: scale(1.2);
