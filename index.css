@@ -1,0 +1,58 @@
+/* The leftbox is just the left-hand part of the screen */
+.leftbox {
+  width: 35%;
+  height: 100%;
+  /* background: green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* this is not working yet -- get help from teachers */
+/* .picture-border {
+  background: purple;
+  width: 92%;
+  height: 77%;
+  border-radius: 100%;
+} */
+
+.picture {
+  width: 90%;
+  height: 75%;
+  background-image: url("./Samaa-Kanani.jpg");
+  background-size: cover;
+  border-radius: 50%; 
+  /* box-shadow: 11px 7px 10px 0px rgba(0,0,0,0.5); */
+}
+
+/* The rightbox is just the right-hand part of the screen */
+.rightbox {
+  width: 65%;
+  height: 100%;
+  /* background: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  /* padding-top: 20%;
+  padding-bottom: 20%; */
+}
+
+.about-me-title {
+  width: 90%;
+  height: 20%;
+  /* background: blue; */
+  display: flex;
+  align-content: 
+
+}
+
+.about-me-title h1 {
+  font-size: 400%;
+}
+
+.about-me-body {
+  width: 90%;
+  height: 60%;
+  /* background: aqua; */
+}
