@@ -95,6 +95,8 @@ input {
   width: 80%;
   /* height: 15%; */
   background: rgba(58, 56, 57, 1);
+  box-shadow: 5px 5px 8px -4px rgba(0,0,0,0.75);
+
 }
 
 
@@ -107,5 +109,6 @@ input {
   margin: 0 auto;
   width: auto;
   border: none;
+  
 }
 

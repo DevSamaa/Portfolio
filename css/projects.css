@@ -60,18 +60,18 @@
 }
 
 #terminal-app-photo {
-  background: url("./quiz-world.png");
+  background: url("../images/quiz-world.png");
   background-size: cover;
 }
 
 #portfolio-site-photo {
-  background: url("./portfolio-pic.png");
+  background: url("../images/portfolio-pic.png");
   background-size: cover;
   /* background-repeat: no-repeat; */
 }
 
 #repo-photo {
-  background: url("./repo.png");
+  background: url("../images/repo.png");
   background-size: cover;
 }
 
