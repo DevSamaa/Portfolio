@@ -87,18 +87,17 @@ input {
 }
 
 .forminput4 {
-  /* margin-top: 10px;
+  margin-top: 10px;
   margin-bottom: 10px;
   display: flex;
   justify-content: center;
-  align-items: center; */
+  align-items: center;
   width: 80%;
   /* height: 15%; */
   background: rgba(58, 56, 57, 1);
   box-shadow: 5px 5px 8px -4px rgba(0,0,0,0.75);
 
 }
-
 
 #submit {
   font-size: 150%;
@@ -112,3 +111,21 @@ input {
   
 }
 
+@media only screen and (max-width: 1050px) {
+  /* write css here */
+  .contactform {
+    overflow-y: scroll;
+  }
+  #text-area-field{
+    width: 45vw;;
+    height: 20vh;
+    resize: none;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    border: solid 0.5px black;
+  }
+  .contactform p{
+    padding-left: 15px;
+  }
+}

@@ -62,3 +62,24 @@
   height: 60%;
   /* background: aqua; */
 }
+
+@media only screen and (max-width: 1050px) {
+  /* write css here */
+  .about-me-title h1 {
+    font-size: 100%;
+  }
+  .rightbox {
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .picture {
+    width: 100px;
+    height: 100px;
+    background-image: url("../images/Samaa-Kanani.jpg");
+    background-size: cover;
+    /* border-radius: 50%;  */
+  }
+}
