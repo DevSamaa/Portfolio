@@ -6,7 +6,8 @@
 @import "resume.css";
 @import "blog.css";
 @import "contact.css";
-@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
 
 /* use 1E1D1E for all texts */
 
@@ -14,7 +15,7 @@
 body{
   margin: 0px;
   padding:0px;
-  font-family: Ubuntu, 'Helvetica Neue', sans-serif;
+  font-family: Lobster, 'Helvetica Neue', sans-serif;
 }
 
 /* this is the green backgorund. It will be used on all pages */
@@ -22,7 +23,7 @@ body{
   width: 100vw;
   height: 100vh;
   /* background: rgba(75, 193, 156, 1); */
-  background:linear-gradient(to bottom right, rgba(75, 193, 156, 1), rgba(58, 56, 57, 1));
+  background:linear-gradient(to bottom right, rgba(124, 83, 113, 1), rgba(58, 56, 57, 1));
   display: flex;
   justify-content: center;
   align-items: center;
