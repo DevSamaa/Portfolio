@@ -98,6 +98,11 @@
   align-items: flex-end;
 }
 
+.project-github a {
+    color: #1E1D1E;
+    /* text-decoration: none; */
+}
+
 .project-github a:visited {
   text-decoration: none;
   color: #1E1D1E;
