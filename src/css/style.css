@@ -1,0 +1,42 @@
+@import "nav.css";
+@import "main.css";
+@import "footer.css";
+@import "index.css";
+@import "projects.css";
+@import "resume.css";
+@import "blog.css";
+@import "contact.css";
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap'); */
+
+/* use 1E1D1E for all texts */
+
+/* removing the margins on the body */
+body{
+  margin: 0px;
+  padding:0px;
+  font-family: Ubuntu, 'Helvetica Neue', sans-serif;
+}
+
+/* this is the green backgorund. It will be used on all pages */
+.background{
+  width: 100vw;
+  height: 100vh;
+  /* background: rgba(75, 193, 156, 1); */
+  background:linear-gradient(to bottom right, rgba(75, 193, 156, 1), rgba(58, 56, 57, 1));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* This is the main container. It will be used on all pages */
+.container{
+  height: 90%;
+  width: 90%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}

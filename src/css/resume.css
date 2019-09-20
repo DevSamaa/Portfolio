@@ -1,0 +1,50 @@
+.resume-page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  /* background: #3A3839; */
+}
+
+/* trying to keep it DRY both boxes are defined here*/
+.LinkedIn-box,
+.PDF-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 40%;
+  /* background: plum; */
+  /* border: solid red 1px; */
+}
+
+
+/* code for the linkedin icon */
+.LinkedIn-link a {
+  font-size: 400%;
+}
+.LinkedIn-link a:visited {
+  text-decoration: none;
+  color:black;
+}
+
+ .LinkedIn-link a:hover {
+  color: #3A3839;
+  transform: scale(1.2);
+}
+
+@media only screen and (max-width: 1050px) {
+  /* write css here */
+  .resume-page{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    width: 90%;
+    /* height: 100%; */
+
+  }
+}

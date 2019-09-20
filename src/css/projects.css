@@ -1,0 +1,173 @@
+.projects-page {
+  width: 100%;
+  height: 100%;
+  /* background: blueviolet; */
+  display: flex;
+  flex-direction: column;
+}
+
+.projects-title{
+  width: 100%;
+  height: 15%;
+  /* background: green; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 200%;
+}
+
+.projects-body {
+  width: 100%;
+  height: 85%;
+  /* background: yellow; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.project-card {
+  width: 30%;
+  height: 95%;
+  /* background: blue; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  /* border: 0.5px solid #1E1D1E; */
+}
+
+.project-photo a:hover {
+  transform: scale(1.2);
+}
+
+.project-border{
+  width: 80%;
+  height: 100%;
+  border: 1px solid #1E1D1E;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* just testing the inside of the cards */
+.project-photo {
+  width: 100%;
+  height: 40%;
+  opacity: 0.8;
+/* please add IDs for the individual pictures, and add them underneath */
+}
+
+#terminal-app-photo {
+  background: url("../images/quiz-world.png");
+  background-size: cover;
+}
+
+#portfolio-site-photo {
+  background: url("../images/portfolio-pic.png");
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+}
+
+#repo-photo {
+  background: url("../images/repo.png");
+  background-size: cover;
+}
+
+.project-title {
+  width: 90%;
+  height: 10%;
+  /* background: pink; */
+} 
+
+.project-explanation {
+  width: 90%;
+  height: 25%;
+  /* background: pink; */
+
+}
+
+.project-github {
+  width: 90%;
+  height: 15%;
+  /* background: pink; */
+  font-size: 400%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.project-github a {
+    color: #1E1D1E;
+    /* text-decoration: none; */
+}
+
+.project-github a:visited {
+  text-decoration: none;
+  color: #1E1D1E;
+}
+.project-github a:hover {
+  color: #3A3839;
+  /* transform zooms in on the item */
+  transform: scale(1.2);
+  /* border-bottom: #1E1D1E solid 2px; */
+}
+
+/* .projects-card-container{
+  display: none;
+} */
+
+/* second attempt */
+@media only screen and (max-width: 1050px) {
+  
+  .projects-page{
+    overflow-y: scroll;
+  }
+
+  /* .project-title h3 {
+    margin: 0px 0px;
+  } */
+  
+  .projects-body {
+    width: 100%;
+    height: 100%;
+    display: block;
+    flex-direction: column;
+    justify-content: space-evenly;
+    overflow-y: scroll;
+  }
+
+
+  
+  .project-card {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px auto;
+    /* overflow-y: scroll; */
+  }
+  
+  .project-border{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #1E1D1E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow-y: scroll;
+    /* background: pink; */
+  } 
+  .project-photo {
+    width: 100%;
+    height: 200px;
+    opacity: 0.8;
+  /* please add IDs for the individual pictures, and add them underneath */
+  }
+
+
+  }
